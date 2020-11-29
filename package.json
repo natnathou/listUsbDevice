@@ -1,0 +1,29 @@
+{
+  "name": "device_tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run-script start",
+    "server": "concurrently  \"tsc -w\" \"nodemon build/index.js\" ",
+    "start": "concurrently --kill-others-on-fail \"npm run-script server\" \"npm run-script client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mcesystems/reflow": "^4.3.10",
+    "@mcesystems/reflow-react-display-layer": "^4.3.10",
+    "@types/express": "^4.17.9",
+    "@types/usb": "^1.5.2",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "socket.io": "^3.0.3",
+    "usb": "^1.6.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
