@@ -11,8 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mcesystems/reflow": "^4.3.10",
-    "@mcesystems/reflow-react-display-layer": "^4.3.10",
     "@types/express": "^4.17.9",
     "@types/usb": "^1.5.2",
     "concurrently": "^5.3.0",
