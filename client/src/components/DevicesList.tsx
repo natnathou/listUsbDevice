@@ -45,6 +45,7 @@ export const DevicesList = () => {
       );
     });
   };
+
   return (
     <div className='Table'>
       <div className='row'>
